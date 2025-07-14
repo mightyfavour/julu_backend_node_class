@@ -1,0 +1,7 @@
+1) setup our project directory structure
+2) create a new node application
+3) install express.js and nodemon
+4) create a simple HTTP server on port 3000
+5) create a new npm script to start our dev server
+6) Impliment .env file
+7) setup a customerconfig file to link env variables and apps
