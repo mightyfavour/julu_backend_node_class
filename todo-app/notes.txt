@@ -1,0 +1,11 @@
+todo-app/
+│
+├── server.js           # Entry point
+├── config/
+│   └── db.js           # MongoDB connection
+├── models/
+│   └── todoModel.js    # Schema & model
+├── controllers/
+│   └── todoController.js # Request handling logic
+├── routes/
+│   └── todoRoutes.js   # API endpoints
