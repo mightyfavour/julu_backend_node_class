@@ -5,3 +5,41 @@
 5) create a new npm script to start our dev server
 6) Impliment .env file
 7) setup a customerconfig file to link env variables and apps
+
+Rendering Dynamic content
+<h1>Wlcome <%= username %>!</h1>
+loopinfg through data
+<ul>
+    <% blog.forEach(blog =>{ %>
+    <li><%= blog.title %></li>
+    <% }) %>
+</ul>
+conditional if/else
+<% if (isAdmin){ %>
+<button>Delete Post</button>
+<% } else { %>
+<p>Read Only</p>
+<% } %>
+Template Reuse with Partials
+<%- include('partials/header') %>
+<h1>Page Content </h1>
+<%- include('partials/footer') %>
+
+blog-fullstack/
+│── /backend
+│    │── server.js
+│    │── /config/db.js
+│    │── /models/Blog.js
+│    │── /controllers/blogController.js
+│    │── /routes/blogRoutes.js
+│
+│── /frontend
+│    │── package.json
+│    │── /src
+│        │── App.js
+│        │── components/
+│        │── pages/
+
+
+
+
