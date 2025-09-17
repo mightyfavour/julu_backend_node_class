@@ -25,7 +25,7 @@ const deleteBlog = async(req, res) => {
     res.json({message:"Blog Deleted"});
 };
 
-module.export = { getAllBlogs, getBlogById, createBlog, deleteBlog};
+module.exports = { getAllBlogs, getBlogById, createBlog, deleteBlog};
 
 // deleteAllBlogs
 // updateBlog
